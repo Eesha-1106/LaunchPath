@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Merienda:wght@300..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">   
+    <title>contact</title>
+    <link rel="icon" href="img/startup-deck-high-resolution-logo.png">
+    <style>
+       
+        
+    </style>
+</head>
+<body>
+    <div class="main-guide-step">
+        <!--navigation bar-->
+        <div class="navbar">
+            <div class="logo">
+                <a href="home.html" ><h2 class="main-text">LaunchPath</h2></a>
+            </div>
+            <div class="menu" id="menu">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <!--dropdown section-->
+                <div class="dropdown">
+                    <a href="guide.html" class="dropbtn">Guide</a>
+                    <div class="dropdown-content">
+                        <a href="ideation.html">Ideation</a>
+                        <a href="market-research.html">Market Research</a>
+                        <a href="validation.html">Validation-Business Model</a>
+                        <a href="product.html">Product-Branding</a>
+                        <a href="funding.html">Funding</a>
+                        <a href="launch.html">Marketting-Launch-Feedback</a>
+                        <a href="team.html">Team-Scaling</a>
+                    </div>
+                </div>
+                <a href="idea.html">Explore Further</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!--hamburger menu-->
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <!--main content-->
+    <div class="contact">
+        <h3>Have questions or ideas? We'd love to hear from you!</h3>
+        <div class="contact-div">
+            <!--contact form-->
+            <form onsubmit="submitAlert(); return false;" class="contact-form">
+                <div>
+                    <h1>Contact Us!</h1>
+                    <div class="contact-info">
+                        <div class="info-info">
+                            <h4>Email</h4>
+                            <p>launchpath@gmail.com</p>
+                        </div>
+                        <div class="info-info">
+                            <h4>Phone Number</h4>
+                            <p>+91 938462008</p>
+                        </div>
+                        <div class="info-info">
+                            <h4>LinkedIn</h4>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <input type="text" id="name" required placeholder="Name">
+                    <input type="email" id="email" required placeholder="example@email.com">
+                    <textarea id="message" placeholder="Your Message..."></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+                <img src="img/Start Up (1).png" alt="contact" width="800px">
+            </form>
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="footer-heading">
+            <h4>LaunchPath</h4>
+            <p>Empowering Student Founders</p>
+        </div>
+            <p>&copy;- 2025 LaunchPath | Created by Eesha Ranka</p>
+            <p>Email: support@launchpath.in</p>
+            <p>Phone: +91 98765 43210</p>
+        <div>
+            <i class="fab fa-linkedin-in"></i>
+            <a href=""><p>LinkedIn</p></a>
+        </div>
+    </footer>
+    <script src="script.js" ></script>
+    </body>
+</html>

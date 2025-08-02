@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Merienda:wght@300..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">   
+    <title>LaunchPath/home</title>
+    <link rel="icon" href="img/startup-deck-high-resolution-logo.png">
+</head>
+<body>
+    <div class="main-guide-step">
+        <!--Navigation bar-->
+        <div class="navbar">
+            <div class="logo">
+                <a href="home.html" ><h2 class="main-text">LaunchPath</h2></a>
+            </div>
+            <div class="menu" id="menu">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <div class="dropdown">
+                    <a href="guide.html" class="dropbtn">Guide</a>
+                    <div class="dropdown-content">
+                        <a href="ideation.html">Ideation</a>
+                        <a href="market-research.html">Market Research</a>
+                        <a href="validation.html">Validation-Business Model</a>
+                        <a href="product.html">Product-Branding</a>
+                        <a href="funding.html">Funding</a>
+                        <a href="launch.html">Marketting-Launch-Feedback</a>
+                        <a href="team.html">Team-Scaling</a>
+                    </div>
+                </div>
+                <a href="idea.html">Explore Further</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!--main section-->
+    <div class="home-main">
+        <!--Main section heading-->
+        <div class="main-home">
+            <div class="home-text">
+                <h2>LaunchPath</h2>
+                <p>From idea to impact,build your startup step-by-step. All tools, one deck.</p>
+            </div>
+            <div class="home-btn">
+                <a href="guide.html"><button>Launch Now</button></a>
+            </div>
+        </div>
+        <!--milestone-->
+        <div class="launch-home">
+            <div class="milestone">
+                <h2>Milestones That Matter</h2>
+                <div class="home-grid">
+                    <div class="home-card">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div>
+                            <h3>250+</h3>
+                            <p>Ideas Transformed</p>
+                        </div>
+                    </div>
+                    <div class="home-card">
+                        <i class="fa-solid fa-gears"></i>
+                        <div>
+                            <h3>75+</h3>
+                            <p>Tools & Templates Delivered</p>
+                        </div>
+                    </div>
+                    <div class="home-card">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        <div>
+                            <h3>500+</h3>
+                            <p>Student Founders Empowered</p>
+                        </div>
+                    </div>
+                    <div class="home-card">
+                        <i class="fa-solid fa-handshake"></i>
+                        <div>
+                            <h3>40+</h3>
+                            <p>Startups Launched</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--how launchpad make it easy-->
+            <div class="launchhome-text">
+                <h2>Here’s How LaunchPath Makes It Easy</h2>
+                <p style="color:white;">.</p>
+            </div>
+            <!--container cards-->
+            <div class="home-container">
+                <div class="card" >
+                    <i class="fas fa-bolt"></i>
+                    <div class="card-body">
+                        <h4>Your Startup Shortcut</h4>
+                        <ul>
+                            <li>Guided from Start to Scale</li>
+                            <li>Everything in One Place</li>
+                            <li>Avoid Beginner Pitfalls</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" >
+                    <i class="fas fa-cogs"></i>
+                    <div class="card-body">
+                        <h4>Launch Smarter, Not Harder</h4>
+                        <ul>
+                            <li>Learn What Matters, Fast</li>
+                            <li>Built for First-Time Founders</li>
+                            <li>Grow with Confidence</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" >
+                    <i class="fas fa-rocket"></i>
+                    <div class="card-body">
+                        <h4>From Idea to Impact</h4>
+                        <ul>
+                            <li>Turn Ideas into Action</li>
+                            <li>Step-by-Step Guidance</li>
+                            <li>Build Something Amazing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--Feedback form-->
+            <div class="feedback">
+                <h2>We’d Love Your Feedback</h2>
+                <p>Help us make LaunchPath better!</p>
+                <form class="feedback-form" onsubmit="submitAlert(); return false;">
+                    <input type="text"  id="name" required placeholder="Your Name" >
+                    <input type="email" id="email" required placeholder="Your Email">
+                    <textarea id="message" placeholder="Your Feedback..."></textarea>
+                    <div class="button">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+   <footer>
+        <div class="footer-heading">
+            <h4>LaunchPath</h4>
+            <p>Empowering Student Founders</p>
+        </div>
+            <p>&copy;- 2025 LaunchPath | Created by Eesha Ranka</p>
+            <p>Email: support@launchpath.in</p>
+            <p>Phone: +91 98765 43210</p>
+        <div>
+            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/eesha-ranka-b707b732a/"><p>LinkedIn</p></a>
+        </div>
+   </footer>
+   <script src="script.js" ></script>
+</body>
+</html>

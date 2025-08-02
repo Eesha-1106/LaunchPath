@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Merienda:wght@300..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="icon" href="img/startup-deck-high-resolution-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">   
+    <title>Explore Further</title>
+</head>
+<body>
+    <div class="main-guide-step">
+        <!--navigation bar-->
+        <div class="navbar">
+            <div class="logo">
+                <a href="home.html" ><h2 class="main-text">LaunchPath</h2></a>
+            </div>
+            <div class="menu" id="menu">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <!--dropdown menu-->
+                <div class="dropdown">
+                    <a href="guide.html" class="dropbtn">Guide</a>
+                    <div class="dropdown-content">
+                       <a href="ideation.html">Ideation</a>
+                        <a href="market-research.html">Market Research</a>
+                        <a href="validation.html">Validation-Business Model</a>
+                        <a href="product.html">Product-Branding</a>
+                        <a href="funding.html">Funding</a>
+                        <a href="launch.html">Marketing-Launch-Feedback</a>
+                        <a href="team.html">Team-Scaling</a>
+                    </div>
+                </div>
+                <a href="idea.html">Explore Further</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!--hambuger menu-->
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <!--main section-->
+    <div class="idea-bg">
+        <!--explore your field-->
+        <div class="idea-text">
+            <h2>Explore Your Field</h2>
+            <h4>Get Tailored Startup Insights.</h4>
+             <form action="/submit_form" method="post"> 
+                <input type="text" id="idea" placeholder="Enter your Field of Interest" onkeyup="filterTable()">
+            </form>
+        </div>
+        <!--table containing startup ideas-->
+        <table id="tableFind">
+            <tbody>
+                <!--IT field-->
+                <tr>
+                    <td>
+                        <h2>Softr</h2>
+                        <p>Berlin-based no-code web platform that lets anyone build custom websites and web apps via drag-and-drop, eliminating the need to write code</p>
+                        <a href="https://explodingtopics.com/blog/it-startups#1-softr">Explore It</a>
+                        <a href="https://www.softr.io/">Visit Site</a>
+                        <h6>IT</h6>
+                    </td>
+                    <td>
+                        <h2>Adalo</h2>
+                        <p>San Francisco startup offering a no-code app builder for iOS/Android, enabling users to create mobile and web apps with visual tools instead of programming</p>
+                        <a href="https://explodingtopics.com/blog/it-startups#2-adalo">Explore</a>
+                        <a href="https://www.adalo.com/startup-founders">Visit Site</a>
+                        <h6>IT</h6>
+                    </td>
+                    <td>
+                        <h2>Meilisearch</h2>
+                        <p>Open‑source search engine (from Paris) designed for speed and relevance, allowing developers to integrate fast, customizable search into their apps</p>
+                        <a href="https://explodingtopics.com/blog/it-startups#3-meilisearch">Explore</a>
+                        <a href="https://www.meilisearch.com/">Visit Site</a>
+                        <h6>IT</h6>
+                    </td>
+                </tr>
+                <!--healthcare-->
+                <tr>
+                    <td>
+                        <h2>Healthy.io</h2>
+                        <p>Mobile health startup that turns smartphones into medical devices. Using the phone’s camera and an app, Healthy.io enables at-home testing of urine samples (e.g. for UTIs or kidney health) with lab‑grade accuracy</p>
+                        <a href="https://www.qualio.com/blog/medical-device-startups#:~:text=13">Explore</a>
+                        <a href="">Visit Site</a>
+                        <h6>Healthcare & MedTech</h6>
+                    </td>
+                    <td>
+                        <h2>ABLE Human Motion</h2>
+                        <p>Barcelona-based company making a wearable powered exoskeleton for wheelchair users. Their lower-body exoskeleton allows users to stand and walk at home or outdoors, empowering mobility beyond the wheelchair</p>
+                        <a href="https://www.qualio.com/blog/medical-device-startups#:~:text=6">Explore</a>
+                        <a href="">Visit Site</a>
+                        <h6>Healthcare & MedTech</h6>
+                    </td>
+                    <td>
+                        <h2>Parasym Health</h2>
+                        <p>Danish neurotech startup with an ear-worn wearable that delivers micro-pulses to stimulate cranial nerves. It targets relief of chronic stress, inflammation, and migraine by modulating the nervous system via the ear</p>
+                        <a href="https://www.qualio.com/blog/medical-device-startups#:~:text=8">Explore</a>
+                        <a href="">Visit Site</a>
+                        <h6>Healthcare & MedTech</h6>
+                    </td>
+                
+                </tr>
+                <!--Fintech-->
+                <tr>
+                    <td>
+                        <h2>Bujeti</h2>
+                        <p>African fintech (South Africa) offering corporate credit cards and spend-management software for SMBs. It provides prepaid corporate cards, automated expense controls (limits, approvals), and real-time spend tracking for growing businesses</p>
+                        <a href="https://techcrunch.com/2023/12/07/yc-backed-fintech-bujeti-raises-2m-for-its-corporate-cards-and-spend-management-platform/#:~:text=Bujeti%20targets%20businesses%20in%20sectors,executives%2C%20staff%2C%20contractors%20and%20vendors">Explore</a>
+                        <a href="https://www.bujeti.com/">Visit Site</a>
+                        <h6>FinTech</h6>
+                    </td>
+                    <td>
+                        <h2>Felix</h2>
+                        <p>U.S.-based chat-first remittance platform aimed at Latino immigrants. Users can send money home via a conversational interface (messaging app) with competitive FX rates and minimal fees</p>
+                        <a href="https://techcrunch.com/2025/04/23/19-us-fintech-startups-have-raised-over-50m-in-2025-so-far/#:~:text=%2A%20Felix%2C%20a%20chat,Island%2C%20HTwenty%2C%20General%20Catalyst%20Customer">Explore</a>
+                        <a href="https://www.felixglobal.com/">Visit Site</a>
+                        <h6>Fintech</h6>
+                    </td>
+                    <td>
+                        <h2>Rain</h2>
+                        <p>LA startup providing an Earned Wage Access app. Rain lets employees access a portion of earned pay before payday and gives employers payroll automation, plus built-in financial wellness tools (e.g. savings and spending insights)</p>
+                        <a href="https://techcrunch.com/2025/04/23/19-us-fintech-startups-have-raised-over-50m-in-2025-so-far/#:~:text=%2A%20Rain%2C%20a%20Los%20Angeles,The">Explore</a>
+                        <a href="https://www.rainapp.com/">Visit Site</a>
+                        <h6>FinTech</h6>
+                    </td>
+                </tr>
+                <!--Education tech-->
+                <tr>
+                    <td>
+                        <h2>Photomath</h2>
+                        <p>Mobile app that lets students solve math problems by taking a picture. Its AI-powered camera scanner recognizes equations and provides step-by-step solutions and explanations, making math homework learning interactive</p>
+                        <a href="https://explodingtopics.com/blog/edtech-startups#:~:text=What%20they%20do%3A%20Photomath%20is,App%20Store%20and%20Google%20Play">Explore</a>
+                        <a href="https://photomath.com/">Visit Site</a>
+                        <h6>EducationTech</h6>
+                    </td>
+                    <td>
+                        <h2>Mursion </h2>
+                        <p>AI/VR training platform that uses virtual humans and immersive simulations to teach interpersonal skills (e.g. leadership, sales, counseling). Companies and educators use Mursion’s VR scenarios with human-in-the-loop coaching to practice communication and emotional intelligence skills</p>
+                        <a href="https://explodingtopics.com/blog/edtech-startups#:~:text=What%20they%20do%3A%20Mursion%20is,training%20programs%20for%20leadership%20training">Explore</a>
+                        <a href="https://www.mursion.com/">Visit site</a>
+                        <h6>EducationTech</h6>
+                    </td>
+                    <td>
+                        <h2>Wonderschool</h2>
+                        <p>Software marketplace enabling individuals to start and run home-based preschools or childcare. The platform handles licensing, enrollment, scheduling, and parent communication, empowering “micro-schools” by streamlining administration</p>
+                        <a href="https://explodingtopics.com/blog/edtech-startups#:~:text=What%20they%20do%3A%20Named%20as,technical%20users">Explore</a>
+                        <a href="https://www.wonderschool.com/corp/ai">Visit site</a>
+                        <h6>EducationTech</h6>
+                    </td>
+                </tr>
+                <!--real estate-->
+                <tr>
+                    <td>
+                        <h2>Pandaloc</h2>
+                        <p>Digital leasing marketplace (France) often called “Airbnb for long-term rentals.” It streamlines tenant-landlord matching with an online application and contracting platform for rental properties, simplifying lease signing and management</p>
+                        <a href="https://explodingtopics.com/blog/proptech-startups#:~:text=What%20they%20do%3A%20Pandaloc%20is,price%20for%20each%20additional%20unit">Explore</a>
+                        <a href="">Visit Site</a>
+                        <h6>Real Estate & PropTech</h6>
+                    </td>
+                    <td>
+                        <h2>Kin Insurance</h2>
+                        <p>Chicago-based insurtech offering home insurance policies specifically designed for disaster-prone areas (hurricanes, floods, wildfires). Kin uses online quoting and speedy digital claims to make coverage more accessible in high-risk zones</p>
+                    <a href="https://explodingtopics.com/blog/proptech-startups#:~:text=What%20they%20do%3A%20Kin%20offers,2024%2C%20Kin%20raised%20an%20additional">Explore</a>
+                        <a href="">Visit Site</a>
+                        <h6>Real Estate & PropTech</h6>
+                    </td>
+                    <td>
+                        <h2>Pacaso</h2>
+                        <p>Fractional real-estate startup that co-owns luxury vacation homes. Pacaso buys high-end second homes and sells shares (via LLC) to multiple buyers, who each get proportional use of the property and paid maintenance, democratizing second-home ownership</p>
+                        <a href="https://explodingtopics.com/blog/proptech-startups#:~:text=What%20they%20do%3A%20Pacaso%20is,property%20maintenance%20of%20the%20property">Explore</a>
+                        <a href="">Visit Site</a>
+                        <h6>Real Estate & PropTech</h6>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="footer-heading">
+            <h4>LaunchPath</h4>
+            <p>Empowering Student Founders</p>
+        </div>
+            <p>&copy;- 2025 LaunchPath | Created by Eesha Ranka</p>
+            <p>Email: support@launchpath.in</p>
+            <p>Phone: +91 98765 43210</p>
+        <div>
+            <i class="fab fa-linkedin-in"></i>
+            <a href=""><p>LinkedIn</p></a>
+        </div>
+    </footer>
+    <script>
+      
+    </script>
+    <script src="script.js" ></script>
+    </body>
+</html>
+
+ 

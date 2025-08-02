@@ -1,0 +1,569 @@
+ body{
+    margin:0;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('img/background\ web.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+/*navigation*/
+.navbar{
+    background-color:#0544a3;
+    color:	#FFFFFF;
+    padding:5px 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    position:fixed;
+    z-index:1000;
+}
+.main-text{
+    font-size: 35px;
+    margin:10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.menu{
+    display:flex;
+    gap:40px;
+    padding-right: 80px;
+}
+.menu a , .logo a{
+    color:	#FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+}
+.menu a:hover {
+    color:#9adcff;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0544a3;
+    min-width: 180px; 
+    width:400px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size:30px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.main-guide-step{
+    box-shadow: 0 0 15px  hsla(234, 85%, 22%, 0.753);
+}
+.hamburger {
+  display: none;
+}
+
+/*Ideation page*/
+.background{
+    background-color: rgba(255, 255, 255, 0.699);
+}
+.main-steps{
+    margin-left: 2%;
+    display:flex;
+    margin-top:5%;
+    
+}
+.sidebar{
+    width:500px;
+    height: auto;
+    display:block;
+    box-shadow: 0 0 10px #bbb;
+    padding:30px;
+    font-size:30px;
+    color:#0544a3;
+    background-color: rgba(255, 255, 255, 0.372);
+}
+.sidebar ul li{
+    padding:10px;
+}
+.sidebar h3{
+    font-size:40px;
+    border-bottom:3px solid #113363;
+}
+
+.ideation-main{
+    margin-left:5%;
+    padding-left:px;
+    padding-right: 40px;;
+}
+.ideation-main h2{
+    font-size:60px;
+    color: #0544a3;
+    border-bottom: 4px solid #113363;
+}
+.ideation-main h4{
+    font-size:40px;
+    color:#0544a3;
+    border-bottom:3px solid #113363
+}
+.ideation-main ul, .ideation-main p{
+    font-size: 30px;
+    padding-left:70px;
+}
+        
+.example{
+    padding-left:50px;
+    padding-right: 50px;
+}
+.videos{
+    display:flex;
+    justify-content:space-around;
+}
+figcaption{
+    font-size:25px;
+    padding-top:40px;
+    font-weight: bold;
+    color:#0544a3;
+}
+iframe{
+    border-radius:20px;
+    box-shadow: 0 0 10px #ccc;
+}
+.books{
+    display:flex;
+}
+.books img{
+    width:300px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(19, 18, 18, 0.842);
+}
+.nextstep{
+    padding:100px;
+    display:flex;
+    padding-left:15%;
+}
+.nextstep h3{
+    font-size:60px;
+    color:#0544a3;
+    text-align:center
+}
+.nextstep button{
+    padding:20px 40px;
+    border-radius: 20px;
+    background: #0544a3;
+    color:white;
+    width:auto;
+    margin:60px;
+    font-size: 30px;
+    border:0;
+    box-shadow:0 0 15px hsla(0, 6%, 90%, 0.648);
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.nextstep button:hover{
+    transform:scale(1.05);
+    background-color:  #0547a3;
+    box-shadow: 0 0 30px hsla(234, 86%, 22%, 0.879);
+}
+.stepheading{
+    font-size:80px;
+    text-align:center;
+    color:#0544a3;
+}
+.stepheading h1{
+    margin:5%;
+}
+
+footer{
+    background-color: #0544a3;
+    color:white;
+    padding-top:10px;
+    display:flex;
+    justify-content:space-around;
+    font-size: 18px;
+}
+footer a{
+    color:white;
+}
+/*guide page*/
+.guide-text{
+    display:grid;
+    background-color: rgba(245, 245, 245, 0.539);
+}
+.kickstart-grid{
+    display:grid;
+    background-color:rgba(255, 255, 255, 0.566);
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.313);
+}
+
+.guide-text h2,.idea-text h2{
+    font-size: 129px;
+    color:#0544a3;
+    text-shadow: 0 0 9px hsla(235, 100%, 95%, 0.703);
+    text-align:center
+}
+.guide-img{
+    width: 100%;
+    margin:0;
+}
+.guide-heading{
+    font-size:30px;
+}
+.guide-text h4{
+    font-size:40px;
+}
+.guide-text p{
+    font-size:30px;
+    padding-left:30px;
+    padding-right:30px;
+    margin:20px;
+}
+.guide-box-rigth h2,.guide-box-left h2{
+    font-size:40px;
+}
+.guide-box-rigth p, .guide-box-left p{
+    font-size:30px;
+}
+.guide-box-rigth{
+    margin-left:auto;
+}
+.guide-box-left{
+    margin-right:auto;
+}
+.rigth-side , .left-side{
+    display:grid;
+    border-radius:770px; 
+    width:40%;
+    margin:20px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 15px  hsla(236, 41%, 93%, 0.865);
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.rigth-side{
+    margin-left: 15%;
+    border-bottom:7px solid #113363 ;
+    transition: transform 0.3s ease;
+}
+.left-side{
+    margin-left:45%;
+    border-top:7px solid #113363 ;
+}
+.rigth-side:hover, .left-side:hover{
+    transform:scale(1.20);
+    cursor: pointer;
+}
+.rigth-align,.left-align{
+    display:flex;
+    
+}
+.guide-box-left a {
+    text-align:center;
+    padding:10px;
+    font-size:20px;
+}
+.guide-box-rigth a{
+    padding-left:15%;
+}
+.rigth-align img{
+    width:150px;
+    border-radius:50%;
+    padding: 10px;
+    border-right: 7px solid #113363;
+    border-top:7px solid #113363 ;
+    margin-left:auto;
+}
+.left-align img{
+    width:150px;
+    border-radius:50%;
+    padding: 10px;
+    border-left: 7px solid #113363;
+    border-bottom:7px solid #113363 ;  
+}
+.guide-btn button{
+    padding:20px 40px;
+    border-radius: 20px;
+    background-color: #0544a3;
+    color:white;
+    width:20%;
+    margin:60px;
+    font-size: 30px;
+    border:0;
+    box-shadow: 0 0 15px hsla(234, 85%, 22%, 0.753);
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+.guide-btn button:hover{
+    transform:scale(1.05);
+    background-color:  #0547a3;
+    box-shadow: 0 0 30px hsla(234, 86%, 22%, 0.879);
+}
+.guide-flow{
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.guide-journey{
+    background-color: rgba(245, 245, 245, 0.539);
+}
+.guide-journey p{
+    font-size:40px;
+    font-weight: bold;
+    padding:50px;
+    text-align: center;
+}
+.guide-btn a{
+    justify-content: space-around;
+}
+.heading{   
+    text-align:center;
+    padding:40px;
+}
+.kickstart{
+    display:flex;
+    padding-top:50px;
+
+}
+.kickstart img{
+    padding:30px;
+    border-radius:50%;
+    min-height:900px;
+    width:900px;
+    border:0;
+    border-left: 7px solid #113363;
+    margin-top:70px;
+    margin-left:40px; 
+}
+
+/*contact us page*/
+.feedback{
+    text-align:center;
+    padding:20px;
+    font-size:40px;
+}
+.contact-form{
+    display:grid;
+    padding:0;
+    width:70%;
+    margin:30px auto;
+    box-shadow: 0 0 15px hsla(234, 85%, 22%, 0.753);
+    border-radius: 20px;
+    display:flex;
+    transition: transform 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.566);
+}
+.contact-form:hover {
+    transform: scale(1.05); 
+  }
+.contact-form input, .contact-form textarea{
+    padding:20px;
+    margin:20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border:0;
+    border-bottom:4px solid #0544a3;
+    border-left:4px solid #0544a3;
+    box-shadow: 0 0 10px #4c4c4c;
+    width:75%;
+    background-color: rgba(255, 255, 255, 0.107);
+    color:#0544a3
+}
+.contact-form button{
+    padding:20px 40px;
+    border-radius: 20px;
+    background: #0544a3;
+    color:white;
+    width:20%;
+    margin:20px;
+    font-size: 25px;
+    border:0;
+    box-shadow:0 0 10px hsla(0, 6%, 90%, 0.648);
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.contact-form button:hover{
+    transform:scale(1.05);
+    background-color:  #0547a3;
+    box-shadow: 0 0 30px hsla(234, 86%, 22%, 0.879);
+}
+.contact{
+    padding:8%;
+    text-align: center;
+    font-size: 40px;
+    color:#0544a3;
+    background-color:rgba(245, 245, 245, 0.539);
+}
+.contact-div{
+    padding:20px;
+}
+.contact-info{
+    display:flex;
+    margin:30px;
+    font-size:20px;
+}
+.contact h3{
+    font-size: 50px;
+    color:#0544a3;
+    
+}
+.contact-info div{
+    margin:50px;
+}
+.info-info h4{
+    font-size:25px;
+}
+.info-info p{
+    font-size:20px;
+}
+.info-info a{
+    font-size:30px;
+    color:#0544a3;
+}
+
+.contact-form h1{
+    text-shadow: 0 0 9px hsla(234, 85%, 22%, 0.753);
+}
+.contact-form img{
+    margin:0;
+    border-radius:20px;
+    padding:0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.208);
+}
+/*Idea page*/
+
+.idea-bg{
+background-color: rgba(255, 255, 255, 0.463);
+}
+.idea-text{
+ padding-top:7%;
+}
+
+.idea-text h4{
+font-size:40px;
+text-align:center; 
+text-shadow: 0 0 40px rgba(255, 255, 255, 0.836);
+}
+.idea-text input{
+width:40%;
+padding:30px;
+border-radius: 20px;
+border:0;
+box-shadow:0 0 10px hsla(234, 85%, 22%, 0.753);
+align-items:center;
+margin-left:30%;
+background-color:rgba(255, 255, 255, 0.63);
+font-size:30px;
+}
+table{
+width:90%;
+border-collapse: separate;
+border-spacing:40px 50px;
+margin:5%;
+}
+td{
+padding:20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.416);
+border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.582);
+transition: transform 0.3s ease;
+}
+td:hover{
+transform:scale(1.05)
+}
+td a{
+justify-content: space-around;
+margin-right:30px;
+font-size: 30px;
+}
+td h2{
+font-size:40px;
+color:#0544a3;
+}
+td p{
+font-size:25px;
+font-weight: bold;
+}
+td h6{
+color:rgba(255, 255, 255, 0.194);
+}
+    
+
+/*media query*/
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #0544a3;
+    width: 100%;
+    position: absolute;
+    top: 70px; 
+    left: 0;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .menu a {
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .dropdown-content {
+    position: static;
+    width: 100%;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+    color: white;
+    font-size: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    flex: 1;
+    text-align: left;
+  }
+  /*contactus*/
+@media (max-width:768px){
+    .contact{
+        width:200px;
+    }
+    .contact-form img{
+        display:none;
+    }
+    form{
+        width:150px;
+    }
+    form input{
+        width:60px;
+    }
+}
+}  
